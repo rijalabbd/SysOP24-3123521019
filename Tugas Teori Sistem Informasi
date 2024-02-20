@@ -1,0 +1,16 @@
+Tugas Sistem Informasi
+
+1. Apa hubungan antara perangkat lunak aplikasi dan sistem operasi?
+- Perangkat lunak aplikasi dan sistem operasi saling terkait dalam ekosistem komputasi
+- Sistem operasi menyediakan dasar untuk aplikasi dengan mengelola sumber daya perangkat keras dan menyediakan layanan dasar.
+- Aplikasi bergantung pada sistem operasi untuk kompatibilitas dan layanan dasar.
+- Keduanya berkembang bersama, mempengaruhi kemajuan dalam komputasi modern.
+
+2. Apa yang dimaksud dengan sistem operasi? Apakah itu perangkat keras atau perangkat lunak?
+  Sistem operasi adalah perangkat lunak yang bertanggung jawab untuk mengelola sumber daya perangkat keras komputer dan menyediakan
+  antarmuka antara perangkat keras tersebut dengan perangkat lunak aplikasi. Ini mencakup fungsi-fungsi seperti:
+  -manajemen memori 
+  -manajemen proses
+  -manajemen file
+  -antarmuka pengguna 
+  -dan pengelolaan sumber daya lainnya. 
