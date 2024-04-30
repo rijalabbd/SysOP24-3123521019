@@ -4,7 +4,7 @@
 ## Daftar Tugas
 - [Mind Map]()
 - [Langkah Siklus CPU](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%203/readme.md#langkah-siklus-cpu)
-- [Pegertian dan Peran Sistem Operasi](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%203#pengertian-dan-peran-sistem-operasi)
+- [Pegertian dan Peran Sistem Operasi](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%203/readme.md#pengertian-dan-peran-sistem-operasi)
 
 ## Mind map
 ![Mind map sejarah OS](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/d7b85f36-8da8-4597-a27a-a52cf72913e2)
