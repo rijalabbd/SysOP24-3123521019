@@ -1,7 +1,7 @@
 # tugas 2
 
 ## Daftar tugas
-- [mind map](https://github.com/rijalabbd/SysOP243123521019/blob/main/Tugas%202/Readme.md#daftar-tugas)
+- [mind map](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%202/Readme.md#proses-booting)
 
  ## Proses Booting
  Booting:
