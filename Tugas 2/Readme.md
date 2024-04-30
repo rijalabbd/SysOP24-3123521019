@@ -1,7 +1,8 @@
 # tugas 2
 
 ## Daftar tugas
-- [mind map](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%202/Readme.md#proses-booting)
+- [Proses booting](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%202/Readme.md#proses-booting)
+- [Mendefinisikan spec laptop]()
 
  ## Proses Booting
  Booting:
@@ -99,3 +100,122 @@ Analisis:
 - Sistem menyalin file-file sistem operasi ke dalam RAM.
 - Sistem mengeksekusi sistem operasi.
 - Sistem operasi akan memulai proses booting dan menampilkan desktop.
+
+##Spesifikasi Laptop Saya
+![Screenshot 2024-02-29 141845](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/83dfa566-65cb-4302-b51c-f367c29ce878)
+
+
+Cpu: Dari gambar di atas menunjukan tentang infromasi prosesor, seperti nama, kode nama,package, technology, spesifikasi dan kecepatan clock
+
+- Prosesor: Menunjukan nama prosesor yang digunakan"Intel Core 17 12700H 12th Generation"
+- Code Name: Menunjukan kode nama prosesor"Alder Lake"
+- Package: Menunjukan jenis paket yang digunakan oleh prosesor: Socket 1744FCBGA"
+- Technolgy: Menujukan proses manufaktur yang digunakan oleh prosesor"10 nm"
+- Spesification: Menunjukan nama lengkap prosesor dan nama model
+- Family: Menunjukan nama keluarga dari prosesor"6"
+- Model: Menunjukan model prosesor"i7"
+- Instructions: Menunjukkan daftar instruksi yang didukung oleh prosesor
+
+- Core Speed: Menunjukkan kecepatan clock saat ini dari inti prosesor"3192.19MHz"
+- Multiplier: Menunjukkan pengganda yang digunakan untuk menentukan kecepatan clock inti.
+- Bus Speed: Menunjukkan kecepatan bus yang menghubungkan prosesor ke memori dan perangkat lain.
+Bagian Cache: 
+
+- L1 Data: Menunjukkan ukuran cache L1 data"6 x 48 KB + 8 x 32 KB"
+- L1 Instruction: Menunjukkan ukuran cache L1 Instructions"6 x 32 KB + 8 X 32 KB"
+- Level 2: Menunjukkan ukuran cache L2,"6 x 1.25MB + 2x 2 MB".
+- Level 3: Menunjukkan ukuran cache L3,"24 MByets".
+
+![Screenshot 2024-02-29 142807](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/9767d8ec-6091-4734-bf7b-13ee69440dd0)
+Informasi Motherboard:
+
+- Manufacturer: Produsen motherboard"HP"
+- Model: Model motherboard"8A4F"
+- Bus Specs: Spesifikasi bus"PCI-Express 4.0 (16.0 GT/s)
+- Chipset: Chipset motherboard"Alder Lake"
+- Southbridge: Southbridge motherboard"Intel Alder Lake PCH"
+- LPCIO: Informasi tentang LPCIO
+
+- Bagian bawah:
+- Informasi BIOS:
+- Brand: Merek BIOS"AMI"
+- Version: Versi BIOS"F.24"
+- Date: Tanggal BIOS dibuat"10/26/2023"
+
+![Screenshot 2024-02-29 151035](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/8ed5da14-a66f-440b-87dc-269a1daff7c8)
+Bagian General:
+
+- Type: Menunjukkan jenis memori yang digunakan"DDR4"
+- Size: Menunjukkan jumlah memori yang terpasang"16 GB"
+- Channel: Menunjukkan jumlah channel memori yang digunakan"2 x 64-bit"
+- Mem Controller Freq.: Menunjukkan clock speed pengontrol memori"798.0 MHz"
+- Uncore Frequency: Menunjukkan clock speed uncore"2693.4 MHz"
+
+Bagian Timings:
+
+- DRAM Frequency: Menunjukkan clock speed memori"1596.1 MHz"
+- FSB:DRAM: Menunjukkan rasio antara FSB dan DRAM clock speed"1:12"
+- CAS# Latency (CL): Menunjukkan latency CAS"22.0 clocks"
+- RAS# to CAS# Delay (tRCD): Menunjukkan RAS# to CAS# delay"22 clocks"
+- RAS# Precharge (tRP): Menunjukkan RAS# precharge"22 clocks"
+- Cycle Time (tRAS): Menunjukkan cycle time"52 clocks"
+- Bank Cycle Time (tRC): Menunjukkan bank cycle time"74 clocks"
+- Command Rate (CR): Menunjukkan command rate"1T"
+
+![Screenshot 2024-02-29 152215](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/13424448-c851-4013-900a-d7a738e19f69)
+Informasi Memori:
+
+- Slot Memori: #1
+- Tipe: DDR4
+- Ukuran Modul: 8 GB
+- Produsen Modul: Micron Technology
+- Minggu/Tahun: 21/22
+- Manufaktur DRAM: Micron Technology
+- Peringkat: Single
+- Nomor Bagian: 8ATF1G64HZ-3G2R1
+- Nomor Seri: 3803A235
+- Tegangan: 1.20 V
+
+- Slot Memori #2:
+- Tipe: DDR4
+- Ukuran Modul: 8 GB
+- Produsen Modul: Micron Technology
+- Minggu/Tahun: 09/23
+- Manufaktur DRAM: Micron Technology
+- Peringkat: Single
+- Nomor Bagian: 8ATF1G64HZ-3G2R1
+- Nomor Seri: 3EBAE82D
+- Tegangan: 1.20 V
+
+![Screenshot 2024-02-29 193014](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/cb1fcdbe-a88b-4c17-97c6-aacc107719d1)
+
+Display Device Selection: Memungkinkan Anda memilih perangkat tampilan yang ingin Anda lihat informasinya
+- GPU: Menunjukkan informasi tentang GPU, seperti nama, vendor, dan clock speed
+- Name: "Intel(R) Iris(R) Xe Graphics"
+- Board Manuf.: Menunjukkan nama pabrikan motherboard"Hewlett-Packard"
+- Code Name: Menunjukkan nama kode CPU.
+- Revision: Menunjukkan revisi CPU"C"
+- Technology: Menunjukkan teknologi manufaktur CPU.
+
+Clocks:
+- GFX Core"1400.0 MHz
+
+![Screenshot 2024-02-29 192239](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/d4712dfc-4488-4896-b44f-ea8bf8a70202)
+
+- GPU: Menunjukkan informasi tentang GPU, seperti nama, vendor, dan clock speed
+- Name: "NVIDIA GeForce RTX 3050 Laptop Gpu"
+- Board Manuf.: Menunjukkan nama pabrikan motherboard"Hewlett-Packard"
+- Code Name: Menunjukkan nama kode CPU"GA107"
+- Technology: Menunjukkan teknologi manufaktur CPU"8 nm"
+- TDP: Menunjukkan Thermal Design Power (TDP) CPU"60.0W"
+- Revision: Menunjukkan revisi CPU"A1"
+
+Clocks:
+- GFX Core: "1500.0" MHz"
+- Memory: "5871.0 MHz"
+
+Memory
+- Size: "4 GBytes"
+- Type: "GDDR6"
+- Vendor: "Hynix"
+- Bus Width: "128 bits"
