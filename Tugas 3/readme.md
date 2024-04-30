@@ -3,50 +3,42 @@
 
 ## Daftar Tugas
 - [Mind Map]()
-- [Langkah Siklus CPU](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%203/readme.md#langkah-siklus-cpu)
-- [Pegertian dan Peran Sistem Operasi](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%203/readme.md#pengertian-dan-peran-sistem-operasi)
+- [Perbedaan BIOS dan UEFI](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%203/readme.md#langkah-siklus-cpu)
+
 
 ## Mind map
 ![Mind map sejarah OS](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/d7b85f36-8da8-4597-a27a-a52cf72913e2)
 
 ![INGLES](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/1e76b626-c0c4-42f0-8b2d-2694dd213ba8)
 
-## Langkah siklus cpu
-![WhatsApp Image 2024-03-23 at 16 46 46_5b653f2c](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/80030fad-df33-4c51-a175-aa7809f9ad61)
 
-## Pengertian dan peran sistem operasi
+## Perbedaan BIOS dan UEFI
+Baik BIOS maupun UEFI adalah firmware yang berperan dalam tahap awal booting komputer, namun keduanya memiliki perbedaan mendasar. Berikut penjelasannya:
 
-## Pengertian Sistem Operasi
+**BIOS (Basic Input/Output System):**
 
-Sistem operasi (**OS**) adalah perangkat lunak (software) yang berfungsi sebagai **pengatur utama** dan **pengendali** seluruh sumber daya yang terdapat dalam sebuah sistem komputer. 
+* **Arsitektur:** 16-bit, membatasi kemampuannya untuk menangani perangkat keras modern secara optimal.
+* **Antarmuka:** Biasanya berbasis teks, kurang intuitif dan penggunaannya terbatas.
+* **Booting:** Proses booting umumnya lebih lambat dibandingkan UEFI.
+* **Tipe Partisi:** Mendukung partisi MBR (Master Boot Record), yang memiliki keterbatasan kapasitas penyimpanan (maksimum 2TB per disk).
+* **Keamanan:** Fitur keamanan terbatas.
 
-Sistem operasi bertindak sebagai **jembatan** antara **perangkat keras** (hardware) dan **perangkat lunak** (software) lainnya, sehingga pengguna dapat **berinteraksi** dengan komputer dengan mudah dan nyaman.
+**UEFI (Unified Extensible Firmware Interface):**
 
-**Analogi:** Bayangkan sistem operasi sebagai **pemerintah** dalam sebuah negara. Pemerintah bertanggung jawab untuk mengatur dan mengendalikan berbagai aspek negara, seperti ekonomi, keamanan, dan infrastruktur. Sama seperti itu, sistem operasi bertanggung jawab untuk mengatur dan mengendalikan berbagai komponen dalam komputer, seperti CPU, memori, dan perangkat penyimpanan.
+* **Arsitektur:** 32-bit atau 64-bit, memungkinkan penanganan perangkat keras modern secara lebih efisien.
+* **Antarmuka:** Biasanya berbasis grafis (GUI), lebih user-friendly dan menawarkan fitur pengaturan yang lebih luas.
+* **Booting:** Proses booting umumnya lebih cepat dibandingkan BIOS.
+* **Tipe Partisi:** Mendukung partisi GPT (GUID Partition Table), yang tidak memiliki batasan kapasitas penyimpanan seperti MBR.
+* **Keamanan:** Fitur keamanan lebih baik, seperti Secure Boot yang membantu mencegah booting dari perangkat yang tidak sah.
 
-## Peran Sistem Operasi
+**Tabel Perbandingan:**
 
-Sistem operasi memiliki berbagai peran penting dalam sistem komputer, di antaranya:
+| Fitur                 | BIOS                               | UEFI                                 |
+|------------------------|------------------------------------|-----------------------------------------|
+| Arsitektur             | 16-bit                             | 32-bit atau 64-bit                    |
+| Antarmuka             | Teks                                | Grafis (GUI)                          |
+| Booting                 | Lambat                               | Lebih cepat                           |
+| Tipe Partisi           | MBR (terbatas 2TB)                   | GPT (kapasitas tak terbatas)            |
+| Keamanan               | Terbatas                             | Lebih baik (Secure Boot)               |
 
-* **Manajemen Memori:** Mengatur alokasi dan penggunaan memori untuk berbagai program dan proses yang berjalan di komputer.
-* **Manajemen Proses:** Mengatur dan mengendalikan eksekusi program dan proses di komputer.
-* **Manajemen Perangkat Keras:** Mengatur dan mengendalikan akses ke perangkat keras komputer, seperti CPU, memori, dan perangkat penyimpanan.
-* **Manajemen Sistem File:** Mengatur dan mengelola sistem file komputer, yang memungkinkan pengguna untuk menyimpan, mengakses, dan mengelola file dan folder.
-* **Manajemen Jaringan:** Mengatur dan mengendalikan koneksi jaringan komputer, memungkinkan pengguna untuk mengakses internet dan sumber daya jaringan lainnya.
-* **Penyediaan Layanan Sistem:** Menyediakan berbagai layanan sistem yang dibutuhkan oleh program dan pengguna, seperti layanan waktu, layanan pencetakan, dan layanan keamanan.
-* **Memfasilitasi Interaksi Pengguna:** Menyediakan antarmuka pengguna (UI) yang memungkinkan pengguna untuk berinteraksi dengan komputer dengan mudah dan nyaman.
-
-## Contoh Sistem Operasi
-
-Beberapa contoh sistem operasi yang populer di antaranya:
-
-* **Microsoft Windows:** Sistem operasi yang paling banyak digunakan di dunia untuk PC.
-* **macOS:** Sistem operasi yang dikembangkan oleh Apple untuk komputer Mac.
-* **Linux:** Sistem operasi open-source yang tersedia dalam berbagai distribusi.
-* **Android:** Sistem operasi yang paling banyak digunakan untuk smartphone dan tablet.
-* **iOS:** Sistem operasi yang dikembangkan oleh Apple untuk iPhone dan iPad.
-
-## Kesimpulan
-
-Sistem operasi adalah perangkat lunak yang fundamental dan sangat penting dalam sistem komputer. Sistem operasi memiliki berbagai peran penting yang memungkinkan pengguna untuk berinteraksi dengan komputer dengan mudah dan nyaman. 
 
