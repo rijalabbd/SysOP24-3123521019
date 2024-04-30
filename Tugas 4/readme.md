@@ -1,1 +1,20 @@
+## Tugas 4
+
+![LAPORAN_SISTEM_OPERAS_1-01 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/2fcd9a54-7c92-4a17-986e-cae52cd9b732)
+![LAPORAN_SISTEM_OPERAS_1-02 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/6bf4a345-4037-4b15-963a-785b953256bf)
+![LAPORAN_SISTEM_OPERAS_1-03 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/2f5ee0d5-15ba-4b27-b203-9d409b55340a)
+![LAPORAN_SISTEM_OPERAS_1-04 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/d0970c42-10eb-4ea6-a9e2-a5bab1f1c784)
+![LAPORAN_SISTEM_OPERAS_1-05 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/e509fb35-198b-4607-a73d-204e2447c41f)
+![LAPORAN_SISTEM_OPERAS_1-06 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/fbab55e0-becd-463b-87fd-016c5b0383cc)
+![LAPORAN_SISTEM_OPERAS_1-07 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/4fd8f499-93fd-4b07-bf6a-e36a22ef5c5f)
+![LAPORAN_SISTEM_OPERAS_1-08 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/a6d5dfb7-f5b4-4934-a792-70ca7d32bed4)
+![LAPORAN_SISTEM_OPERAS_1-09 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/d9093494-f76d-4fe2-9318-bd28d929bfa6)
+![LAPORAN_SISTEM_OPERAS_1-10 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/8ab25221-cb5c-4819-ba3f-6650cd507aef)
+![LAPORAN_SISTEM_OPERAS_1-11 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/88e1678f-0ebb-4db2-ae1c-3242d5809ee8)
+![LAPORAN_SISTEM_OPERAS_1-12 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/b7325dc7-93f2-41d7-8b53-51f69f1fb01b)
+![LAPORAN_SISTEM_OPERAS_1-13 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/ad2b5464-8a30-4bd9-b147-dc9a7f353f57)
+![LAPORAN_SISTEM_OPERAS_1-14 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/cfc85710-974a-4b49-9267-07dfd5d5937c)
+![LAPORAN_SISTEM_OPERAS_1-15 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/126fa31e-b99c-4501-91f4-50942434f391)
+![LAPORAN_SISTEM_OPERAS_1-16 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/0c48bd5a-2f0a-4d0d-a4e4-00d653af7f66)
+![LAPORAN_SISTEM_OPERAS_1-17 1](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/d962cb59-b3fc-4a2f-9e00-c7769b4cf5cf)
 
