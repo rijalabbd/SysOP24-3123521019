@@ -2,7 +2,7 @@
 
 
 ## Daftar Tugas
-- [Langkah siklus cpu](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%203#mind-map)
+- [Langkah siklus cpu](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%204/readme.md#langkah-siklus-cpu)
 - [Peran Bahasa Pemrograman dan Compiler](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%203#langkah-siklus-cpu)
 - [Install Debian dan Jalankan FLOPS-IOPS](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%203#pengertian-dan-peran-sistem-operasi)
 - [Laporan praktikum sisop]()
