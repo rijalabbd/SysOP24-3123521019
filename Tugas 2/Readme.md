@@ -2,7 +2,7 @@
 
 ## Daftar tugas
 - [Proses booting](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%202/Readme.md#proses-booting)
-- [Mendefinisikan spec laptop](https://github.com/rijalabbd/SysOP24-3123521019/edit/main/Tugas%202/Readme.md#spesifikasi-laptop-saya)
+- [Mendefinisikan spec laptop](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%202/Readme.md#spesifikasi-laptop-saya)
 
  ## Proses Booting
  Booting:
