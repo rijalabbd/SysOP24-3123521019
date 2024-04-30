@@ -2,7 +2,7 @@
 
 ## Daftar tugas
 - [Proses booting](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%202/Readme.md#proses-booting)
-- [Mendefinisikan spec laptop]()
+- [Mendefinisikan spec laptop](https://github.com/rijalabbd/SysOP24-3123521019/edit/main/Tugas%202/Readme.md#spesifikasi-laptop-saya)
 
  ## Proses Booting
  Booting:
@@ -101,7 +101,8 @@ Analisis:
 - Sistem mengeksekusi sistem operasi.
 - Sistem operasi akan memulai proses booting dan menampilkan desktop.
 
-##Spesifikasi Laptop Saya
+## Spesifikasi Laptop Saya
+
 ![Screenshot 2024-02-29 141845](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/83dfa566-65cb-4302-b51c-f367c29ce878)
 
 
