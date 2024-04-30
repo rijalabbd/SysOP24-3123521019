@@ -5,7 +5,7 @@
 - [Langkah siklus cpu](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%204/readme.md#langkah-siklus-cpu)
 - [Peran Bahasa Pemrograman dan Compiler](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%204/readme.md#peran-bahasa-pemrograman-dan-compiler)
 - [Install Debian dan Jalankan FLOPS-IOPS](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%204/readme.md#install-debian-dan-jalankan-flops-iops)
-- [Laporan praktikum sisop]()
+- [Laporan praktikum sisop](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%204/readme.md#laporan-praktikum-sisop)
 
 
 
