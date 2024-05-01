@@ -1,7 +1,7 @@
 # Tugas 7
 
 ## Daftar Tugas
-- [Forking](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%207#forking)
+- [Forking](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%207/readme.md#forking)
 - [Orphan](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%207#orphan)
 - [Zombie](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%207#zombie)
 
