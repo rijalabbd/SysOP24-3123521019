@@ -1,7 +1,7 @@
 # Tugas 5
 
 ## Daftar Tugas
-- [Cloning Repository](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%205#cloning-repository)
+- [Cloning Repository](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%205/readme.md#cloning-repository)
 - [fork01](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%205#fork01)
 - [fork02](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%205#fork02)
 - [fork03](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%205#fork03)
