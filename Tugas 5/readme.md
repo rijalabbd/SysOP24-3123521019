@@ -4,7 +4,7 @@
 - [Cloning Repository](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%205/readme.md#cloning-repository)
 - [fork01](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%205/readme.md#fork01)
 - [fork02](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%205/readme.md#fork02)
-- [fork03](https://github.com/zakwanaraffi/SysOP24-3123521030/tree/main/Tugas%205#fork03)
+- [fork03](https://github.com/rijalabbd/SysOP24-3123521019/blob/main/Tugas%205/readme.md#fork03)
 
 ## Cloning Repository
 Buat tulisan tentang konsep fork dan implementasinya dengan menggunakan bahasa pemrograman C! (minimal 2 paragraf disertai dengan gambar)
