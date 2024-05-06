@@ -203,4 +203,4 @@ printf("\nThe total of 100 iterations is %d\n",total);
 
 **Kesimpulan**
 
-Masalah produsen dan konsumen adalah masalah sinkronisasi klasik yang dapat dipecahkan dengan menggunakan semaphore. Kode yang saya berikan di atas adalah contoh implementasi masalah produsen dan konsumen dalam bahasa C. Kode ini telah diparafrase untuk membuatnya lebih mudah dipahami.
+Masalah produsen dan konsumen adalah masalah sinkronisasi klasik yang dapat dipecahkan dengan menggunakan semaphore. Kode yang saya berikan di atas adalah contoh implementasi masalah produsen dan konsumen dalam bahasa C.
