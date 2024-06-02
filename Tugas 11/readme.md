@@ -1,4 +1,6 @@
 
+---
+
 # Memahami Perbedaan Serial, Parallel, Concurrent, dan Concurrent Parallel
 
 ![Screenshot 2024-05-19 162648](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/50ca59b8-5f35-46b6-aca4-fd258913e13f)
@@ -45,6 +47,48 @@
 
 ---
 
-## Kesimpulan
-Memahami perbedaan **Serial, Parallel, Concurrent, dan Concurrent Parallel** penting untuk memilih pendekatan yang tepat dalam pemrograman dan desain sistem. Setiap pendekatan memiliki kelebihan dan kekurangannya sendiri, dan pilihan terbaik tergantung pada kebutuhan dan karakteristik aplikasi.
+## Penjelasan Gambar
+
+### Shared Resource antara Writers dan Readers
+![Screenshot 2024-06-02 135133](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/ebe8d49e-cdd8-43e6-9819-bf50af34192e)
+
+Gambar di atas menunjukkan diagram representasi masalah pembaca-penulis (reader-writer problem) dalam sistem operasi. Masalah ini menggambarkan situasi di mana beberapa proses (pembaca dan penulis) perlu mengakses sumber daya bersama (seperti file atau database) dengan cara yang saling eksklusif, menghindari konflik, dan memastikan ketepatan data.
+
+#### Komponen Utama Diagram
+- **Sumber Daya Bersama (Shared Resource):** Data yang diakses oleh pembaca dan penulis. Sumber daya ini dapat berupa file, database, atau struktur data lainnya.
+- **Pembaca (Readers):** Proses yang mengakses sumber daya untuk membaca dan tidak mengubahnya. Pembaca dapat mengakses sumber daya secara bersamaan, asalkan tidak ada penulis yang aktif.
+- **Penulis (Writers):** Proses yang mengakses sumber daya untuk mengubahnya. Penulis harus memiliki akses eksklusif ke sumber daya untuk memastikan data tidak terkontaminasi oleh pembaca atau penulis lain.
+
+#### Alur Operasi
+Diagram menunjukkan urutan langkah yang diambil oleh pembaca dan penulis untuk mengakses sumber daya bersama:
+
+**Pembaca (Readers)**
+1. **EnterReader():** Pembaca memasuki area kritis untuk mengakses sumber daya.
+2. **Read(...):** Pembaca membaca data dari sumber daya.
+3. **LeaveReader():** Pembaca meninggalkan area kritis, memungkinkan pembaca atau penulis lain untuk mengakses sumber daya.
+
+**Penulis (Writers)**
+1. **EnterWriter():** Penulis memasuki area kritis untuk mengakses sumber daya.
+2. **Write(...):** Penulis mengubah data dalam sumber daya.
+3. **LeaveWriter():** Penulis meninggalkan area kritis, memungkinkan pembaca atau penulis lain untuk mengakses sumber daya.
+
+#### Mekanisme Sinkronisasi
+Untuk menjaga konsistensi data dan menghindari konflik, mekanisme sinkronisasi seperti semaphore, mutex, atau monitor digunakan. Mekanisme ini memastikan bahwa hanya satu penulis yang dapat mengakses sumber daya pada satu waktu, dan tidak ada penulis yang dapat mengakses sumber daya saat ada pembaca yang aktif.
+
+### Dining Philosophers Problem
+![Screenshot 2024-06-02 135532](https://github.com/rijalabbd/SysOP24-3123521019/assets/141767343/769a06ef-ffbf-4503-a38c-5092f68d0044)
+
+Dining Philosophers Problem adalah masalah klasik dalam ilmu komputer yang menggambarkan sinkronisasi dan deadlock dalam sistem konkuren. Diperkenalkan oleh Edsger Dijkstra pada tahun 1965, masalah ini menggambarkan situasi di mana lima filsuf duduk di meja bundar dengan satu piring spaghetti di depan masing-masing. Ada garpu di antara setiap dua filsuf, dan setiap filsuf membutuhkan dua garpu untuk makan.
+
+#### Solusi: Waiter
+Solusi sederhana ini melibatkan seorang waiter yang mengawasi penggunaan sumpit di meja makan. Ketika empat buah (dua pasang) sumpit sedang dipakai, orang berikutnya yang ingin memakai sumpit harus meminta izin kepada sang waiter, yang hanya dapat diberi ketika salah satu sumpit telah selesai terpakai.
+
+**Contoh:**
+Misalkan ke-lima orang tersebut dinamakan dari A sampai E secara berurutan.
+
+Ketika A dan C sedang makan, 4 buah sumpit sedang terpakai. B tidak memiliki kedua sumpit, dan D serta E memiliki satu buah sumpit di antara mereka.
+
+Apabila D ingin makan dan mengambil sumpit kelima, deadlock sangat mungkin terjadi. Maka waiter akan meminta D untuk menunggu, hingga salah satu sumpit selesai digunakan.
+
+---
 
