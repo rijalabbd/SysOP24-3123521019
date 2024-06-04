@@ -1,6 +1,6 @@
 ## Latihan
 
-**4.1 Contoh Implementasi Multithreading yang Lebih Baik daripada Single-threaded**
+**4.1 Berikan tiga contoh pemrograman di mana multithreading memberikan kinerja yang lebih baik daripada solusi single-threaded.**
 
 Berikut adalah tiga contoh penerapan multithreading yang menunjukkan performa yang lebih baik dibandingkan solusi single-threaded:
 
@@ -10,7 +10,7 @@ Berikut adalah tiga contoh penerapan multithreading yang menunjukkan performa ya
 
 3. **Program GUI Interaktif:** Pada program seperti debugger, multithreading dapat meningkatkan performa dengan menjalankan tugas secara paralel. Satu thread dapat memantau input pengguna, thread lain menangani aplikasi yang sedang berjalan, dan thread ketiga memonitor kinerja, menghasilkan pengalaman pengguna yang lebih mulus dan responsif.
 
-**4.2 Perbedaan Thread Tingkat Pengguna dan Kernel**
+**4.2 Apa dua perbedaan antara thread tingkat pengguna dan thread tingkat kernel? Dalam kondisi apa satu jenis lebih baik dibandingkan jenis lainnya?**
 
 Berikut adalah dua perbedaan utama antara thread tingkat pengguna dan kernel:
 
@@ -23,7 +23,7 @@ Berikut adalah dua perbedaan utama antara thread tingkat pengguna dan kernel:
 * **Thread Tingkat Pengguna:** Digunakan untuk aplikasi yang tidak memerlukan kontrol kernel yang ketat dan ingin menghindari overhead kernel. Cocok untuk tugas komputasi paralel yang tidak memerlukan sinkronisasi antar thread yang kompleks.
 * **Thread Kernel:** Digunakan untuk aplikasi yang membutuhkan kontrol kernel, sinkronisasi antar thread yang kompleks, atau akses ke sumber daya kernel. Cocok untuk aplikasi real-time dan sistem yang membutuhkan kontrol presisi atas thread.
 
-**4.3 Mekanisme Context Switching Kernel**
+**4.3 Jelaskan tindakan yang diambil oleh kernel untuk beralih konteks antar thread tingkat kernel**
 
 Saat beralih konteks antar thread kernel, kernel melakukan langkah-langkah berikut:
 
@@ -33,14 +33,14 @@ Saat beralih konteks antar thread kernel, kernel melakukan langkah-langkah berik
 
 3. **Penyesuaian Struktur Data:** Struktur data kernel yang terkait dengan thread diperbarui untuk mencerminkan peralihan konteks.
 
-**4.4 Perbedaan Alokasi Sumber Daya Thread dan Proses**
+**4.4 Sumber daya apa yang digunakan saat thread dibuat? Apa perbedaannya dengan yang digunakan saat proses dibuat?**
 
 Pembuatan thread umumnya membutuhkan lebih sedikit sumber daya dibandingkan pembuatan proses karena ukuran thread lebih kecil:
 
 * **Proses:** Membutuhkan alokasi blok kontrol proses (PCB) yang besar, termasuk peta memori, daftar file terbuka, dan variabel lingkungan. Alokasi peta memori umumnya memakan waktu paling lama.
 * **Thread:** Membutuhkan alokasi struktur data yang lebih kecil untuk menyimpan set register, tumpukan, dan prioritas.
 
-**4.5 Mem綁定 Thread Real-time ke LWP**
+**4.5 Asumsikan bahwa sistem operasi memetakan thread tingkat pengguna ke kernel menggunakan model banyak ke banyak dan pemetaan dilakukan melalui LWP. Selain itu, sistem ini memungkinkan pengembang membuat thread real-time untuk digunakan dalam sistem real-time. Apakah perlu untuk mengikat thread real-time ke LWP? Menjelaskan**
 
 Dalam sistem yang menggunakan model banyak-ke-banyak untuk memetakan thread pengguna ke kernel dengan LWP, mengikat thread real-time ke LWP sangat penting:
 
